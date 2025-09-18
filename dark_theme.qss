@@ -1,0 +1,113 @@
+/* ---------- Base App ---------- */
+QWidget {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+/* ---------- Labels ---------- */
+QLabel {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* ---------- Line Edit ---------- */
+QLineEdit {
+    background-color: #1e1e1e;
+    border: 1px solid #666;
+    border-radius: 6px;
+    padding: 6px 8px;
+    selection-background-color: #0078d7;
+    selection-color: #ffffff;
+}
+
+/* ---------- Buttons ---------- */
+QPushButton {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+/* Hover effect */
+QPushButton:hover {
+    background-color: #555;      /* general hover if no ID is set */
+}
+
+/* Pressed effect */
+QPushButton:pressed {
+    background-color: #333;
+    border: 2px inset #222;
+}
+
+/* Individual buttons */
+QPushButton#fetch {
+    background-color: #0078d7;
+}
+QPushButton#fetch:hover {
+    background-color: #1a8cff;
+}
+QPushButton#fetch:pressed {
+    background-color: #005a9e;
+}
+
+QPushButton#download {
+    background-color: #28a745;
+}
+QPushButton#download:hover {
+    background-color: #34d058;
+}
+QPushButton#download:pressed {
+    background-color: #1e7e34;
+}
+QPushButton#save {
+    background-color: #777
+}
+QPushButton#save:hover{
+    background-color: #888
+}
+QPushButton#save:pressed{
+    background-color: #666
+}
+
+QPushButton#cancel {
+    background-color: #d32f2f;
+}
+QPushButton#cancel:hover {
+    background-color: #e04848;
+}
+QPushButton#cancel:pressed {
+    background-color: #a00000;
+}
+
+
+/* ---------- ComboBox ---------- */
+QComboBox {
+    background-color: #1e1e1e;
+    border: 1px solid #666;
+    border-radius: 6px;
+    padding: 6px 8px;
+}
+QComboBox QAbstractItemView {
+    background-color: #2b2b2b;
+    selection-background-color: #0078d7;
+    selection-color: white;
+}
+
+/* ---------- Progress Bar ---------- */
+QProgressBar {
+    border: 1px solid #444;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #1e1e1e;
+    font-size: 16px;
+    font-weight: bold;
+}
+QProgressBar::chunk {
+    background-color: #00cc66;
+    border-radius: 6px;
+}
