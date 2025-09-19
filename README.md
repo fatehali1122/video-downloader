@@ -5,7 +5,7 @@ A Python-based video downloader using `yt-dlp` and **FFmpeg**.
 ---
 
 ## ✨ Features
-- Download videos from YouTube and other supported sites.  
+- Download videos from sites supported by yt-dlp.  
 - Choose video quality (auto + manual options).  
 - Uses FFmpeg for best video/audio merging.  
 
