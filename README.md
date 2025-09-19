@@ -2,6 +2,10 @@
 
 A Python-based video downloader using `yt-dlp` and **FFmpeg**.  
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+
 ---
 
 ## ✨ Features
