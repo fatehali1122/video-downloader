@@ -62,6 +62,9 @@ A Python-based video downloader using `yt-dlp` and **FFmpeg**.
 Made by **Fateh Ali**  
 [LinkedIn](https://www.linkedin.com/in/fateh-ali-072348352/) | [GitHub](https://github.com/fatehali1122)  
 
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ## ⚠️ Disclaimer
 
 -This project is for educational purposes only.
